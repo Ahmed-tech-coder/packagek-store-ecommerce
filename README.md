@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- Project Banner Suggestion -->
-<img src="og-image.jpg" alt="Packjack Store Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); border: 1px solid rgba(255, 255, 255, 0.1);" />
+<img src="./src/assets/og-image.jpg" alt="Packjack Store Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); border: 1px solid rgba(255, 255, 255, 0.1);" />
 
 [![React Version](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite Version](https://img.shields.io/badge/Vite-5.4.19-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.org/)

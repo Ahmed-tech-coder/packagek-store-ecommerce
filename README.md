@@ -315,5 +315,4 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 - **Company Name**: Packjack Store
 - **Website**: [https://packadgek.com/](https://packadgek.com/)
 - **Facebook Page**: [Packjack on Facebook](https://www.facebook.com/share/17LEey2RzW/?mibextid=wwXIfr)
-- **Project Lead Email**: `support@packadgek.com` (Placeholder)
   "# packagek-store-ecommerce"

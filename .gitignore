@@ -1,0 +1,105 @@
+# ==============================================================================
+#                     PACKJACK STORE - MASTER GITIGNORE FILE
+# ==============================================================================
+# This file is configured for a modern React + TypeScript + Vite monorepo/sub-app
+# setup, including support for Bun, NPM, Yarn, Vercel, and common IDEs.
+
+# ------------------------------------------------------------------------------
+# 1. Dependency Directories (Locking local installs)
+# ------------------------------------------------------------------------------
+node_modules/
+jspm_packages/
+web_modules/
+
+# ------------------------------------------------------------------------------
+# 2. Build & Production Outputs
+# ------------------------------------------------------------------------------
+dist/
+dist-ssr/
+build/
+out/
+.next/
+.serverless/
+bin/
+obj/
+
+# ------------------------------------------------------------------------------
+# 3. Environment & Private Variables (CRITICAL: Security & Credentials)
+# ------------------------------------------------------------------------------
+# Never commit credentials or local variables to public control
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.local
+
+# ------------------------------------------------------------------------------
+# 4. Logs and Debug Outputs
+# ------------------------------------------------------------------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+bun.lockb
+
+# ------------------------------------------------------------------------------
+# 5. Editor & IDE Settings (Allows individual settings overrides)
+# ------------------------------------------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swo
+*.swp
+.project
+.classpath
+.settings/
+.elps/
+
+# ------------------------------------------------------------------------------
+# 6. Operating System Specific Files
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------------------------------------------
+# 7. Deployment and Cloud Services
+# ------------------------------------------------------------------------------
+.vercel
+.vercel/
+.serverless/
+.firebase/
+.terraform/
+
+# ------------------------------------------------------------------------------
+# 8. Testing & Coverage Outputs
+# ------------------------------------------------------------------------------
+coverage/
+.nyc_output/
+.jest/
+*.lcov
+
+# ------------------------------------------------------------------------------
+# 9. TypeScript / Compilers Cache
+# ------------------------------------------------------------------------------
+*.tsbuildinfo
+.eslintcache
+.parcel-cache
+.cache/

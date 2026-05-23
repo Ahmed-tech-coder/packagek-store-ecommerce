@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap URL
+Sitemap: https://packagek.com/sitemap.xml
+
+# تمنع الصفحات الإدارية من الظهور في نتائج البحث
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /checkout
+Disallow: /cart
